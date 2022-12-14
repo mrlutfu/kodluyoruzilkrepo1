@@ -10,7 +10,7 @@ Bu repo [Kodluyoruz](https://patika.dev) Front-End Eğitiminde oluşturduğumuz 
 ![Kodluyoruz Logo](https://raw.githubusercontent.com/Kodluyoruz/taskforce/git/git/markdown-nedir-nasil-kullaniriz-/figures/kodluyoruz_logo.jpg)
 ## Usage
 Projeyi cloneladıktan sonra Visual Studio Code programında açınız
-
+***
 Linux için:
 '''
 cd kodluyoruzrepo
