@@ -12,10 +12,10 @@ Bu repo [Kodluyoruz](https://patika.dev) Front-End Eğitiminde oluşturduğumuz 
 Projeyi cloneladıktan sonra Visual Studio Code programında açınız
 
 Linux için:
----
+'''
 cd kodluyoruzrepo
 code.
----
+'''
 ## Contributing
 
 Pull Requestler kabel edilir. Büyük değişiklikler için, lütfen önce neyi değiştirmek
