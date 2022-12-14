@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    background-color: #af1407;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23eb8469' fill-opacity='0.73'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+    
+  .container {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+  }
+    
+  .snowball{
+    position: relative;
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(0 0 10px #540903); 
+  }
+    
+  canvas{
+    background-color: #0A3D62;
+    border: 35px solid #af1407;
+    border-radius: 20%;
+  }
+    
+  .moon{
+    position: absolute;
+    width:180px;
+    height:180px;
+    background-color: #E8D7C1;
+    box-shadow: 0 0 15px 10px rgba(232, 215, 193, 0.4);
+    border-radius: 50%;
+    margin: 70px;
+  }
+    
+  .deers{
+    position: absolute;
+    top: 160px;
+    left: 50px;
+  }
+
+body {
+    margin: auto;
+    display: grid;
+    background: #000;
+    grid-template-columns: 
+            repeat(4,130px);
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+.card {
+    margin: auto;
+    width: 270px;
+    height: 270px;
+    position: relative;
+    justify-self: center;
+    border:1px solid #85858554;
+    border-radius:4px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: border 0.2s ease;
+}
+
+.card img {
+    max-height: 100%;
+    min-width: 80%;
+    object-fit: cover;
+    transition: transfrom 0.2s ease;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: #00000062;
+    display: grid;
+    place-content: center;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    color: #fff;
+}
+.card:hover > .overlay {
+    opacity: 1;
+}
+.play {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #000000bb;
+    display: grid;
+    place-content: center;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.2s ease 0.15s;
+}
+.play i {font-size: 24px;}
+.card:hover > .overlay  .play {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/*deneme kısmı*/
+
+.link-tik{
+    position:absolute; 
+    height:100%;
+    width:100%;
+    top:0;
+    left: 0;
+    z-index: 1;
+}
+/*test*/
+
+

@@ -1,0 +1,6 @@
+- const droplets = 250;
+.rain
+	- for (let r = 0; r < droplets; r++)
+		.raindrop(
+			style=`--x: ${Math.floor(Math.random() * 100)}; --y: ${Math.floor(Math.random() * 100)}; --o: ${Math.random()}; --a: ${Math.random() + 0.5}; --d: ${Math.random() * 2 - 1}; --s: ${Math.random()}`
+		) 💧
