@@ -5,4 +5,7 @@ Bu repo [Kodluyoruz](https://patika.dev) Front-End Eğitiminde oluşturduğumuz 
 
 Öncelikle projeyi clonelayın.
 
-- https://github.com/mrlutfu/kodluyoruzilkrepo1.git
+- git clone https://github.com/mrlutfu/kodluyoruzilkrepo1.git
+
+## Usage
+Projeyi cloneladıktan sonra Visual Studio Code programında açınız
